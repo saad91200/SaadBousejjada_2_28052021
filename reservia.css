@@ -1,3 +1,9 @@
+body
+{
+ font-family: 'Raleway', sans-serif;
+}
+
+
 .recherche_location
 {
     display: flex;
@@ -8,14 +14,15 @@
     width: 50px;
     height: 50px;
     background-color: #F2F2F2;
-    border-radius: 15% 0 0 15%;
+    border-radius: 30% 0 0 30%;
     text-align: center;
+    
     
 }
 .recherche_location_icon img
 {
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
 margin-top: 5px;
 }
 
@@ -24,17 +31,231 @@ margin-top: 5px;
     width: 50px;
     height: 50px;
     background-color: #0065FC;
-    border-radius: 0 15% 15% 0;
+    border-radius: 0 30% 30% 0;
 }
 
 .recherche_location_button img
 {
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
 margin-top: 5px;
 color: white;
 }
 .recherche_location input
 {
     flex: 1;
+}
+
+
+.filtres
+{
+    display: grid;
+}
+ 
+.economique
+{
+    display: flex;
+}
+
+.economique_button
+{
+    width: 50px;
+    height: 50px;
+    background-color: #DEEBFF;
+    border-radius: 50% 50%;
+    text-align: center;
+}
+
+.economique_button img
+{
+    width: 25px;
+    height: 25px;
+margin-top: 5px;
+color: #0065FC;
+}
+
+.familial
+{
+    display: flex;
+}
+
+.familial_button
+{
+    width: 50px;
+    height: 50px;
+    background-color: #DEEBFF;
+    border-radius: 50% 50%;
+    text-align: center;
+}
+
+.familial_button img
+{
+    width: 25px;
+    height: 25px;
+margin-top: 5px;
+color: #0065FC;
+}
+
+
+.romantique
+{
+    display: flex;
+}
+
+.romantique_button
+{
+    width: 50px;
+    height: 50px;
+    background-color: #DEEBFF;
+    border-radius: 50% 50%;
+    text-align: center;
+}
+
+.romantique_button img
+{
+    width: 25px;
+    height: 25px;
+margin-top: 5px;
+color: #0065FC;
+}
+
+.animaux
+{
+    display: flex;
+}
+
+.animaux_button
+{
+    width: 50px;
+    height: 50px;
+    background-color: #DEEBFF;
+    border-radius: 50% 50%;
+    text-align: center;
+}
+
+.animaux_button img
+{
+    width: 25px;
+    height: 25px;
+margin-top: 5px;
+color: #0065FC;
+}
+
+.info
+{
+
+    display: flex;
+}
+.info_button img
+{
+    width: 55px;
+    height: 55px;
+margin-top: 5px;
+}
+
+
+.stat
+{
+    display: flex;
+}
+.stat_button img
+{
+    width: 25px;
+    height: 25px;
+margin-top: 10px;
+}
+
+
+.soleil
+{
+    display: block;
+    width: 320px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15% 15% 15% 15%;
+    text-align: left;
+}
+
+.soleil_button img
+{
+    width: 120px;
+    height: 120px;
+margin-top: 8px;
+border-radius: 20% 0% 0% 20%;
+}
+
+.etoile_button img
+{
+    width: 100px;
+    height: 100px;
+margin-top: 8px;
+}
+
+.text_soleil
+{
+    text-align: right;
+}
+
+
+
+
+.coeur
+{
+    display: block;
+    width: 320px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15% 15% 15% 15%;
+    text-align:left;
+}
+
+.coeur_button img
+{
+    width: 120px;
+    height: 120px;
+margin-top: 8px;
+border-radius: 20% 0% 0% 20%;
+}
+
+.etoile_button img
+{
+    width: 100px;
+    height: 100px;
+margin-left: 5px;
+}
+
+.text_coeur
+{
+    text-align: right;
+}
+
+
+.bleu
+{
+    display: block;
+    width: 320px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15% 15% 15% 15%;
+    text-align:left;
+}
+
+.bleu_button img
+{
+    width: 120px;
+    height: 120px;
+margin-top: 8px;
+border-radius: 20% 0% 0% 20%;
+}
+
+.etoile_button img
+{
+    width: 100px;
+    height: 100px;
+margin-left: 5px;
+}
+
+.text_bleu
+{
+    text-align: right;
 }
