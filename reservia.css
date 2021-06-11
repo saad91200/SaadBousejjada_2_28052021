@@ -259,3 +259,224 @@ margin-left: 5px;
 {
     text-align: right;
 }
+
+
+
+
+
+.cannebiere
+{
+    display: block;
+    width: 320px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15% 15% 15% 15%;
+    text-align:left;
+}
+
+.cannebiere_button img
+{
+    width: 300px;
+    height: 150px;
+margin-top: 8px;
+border-radius: 10% 10% 0% 0%;
+}
+
+.etoile_button2 img
+{
+    width: 100px;
+    height: 100px;
+margin-left: 5px;
+}
+
+.text_cannebiere
+{
+    text-align: right;
+}
+
+
+.port
+{
+    display: block;
+    width: 320px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15% 15% 15% 15%;
+    text-align:left;
+}
+
+.port_button img
+{
+    width: 300px;
+    height: 150px;
+margin-top: 8px;
+border-radius: 10% 10% 0% 0%;
+}
+
+.etoile_button2 img
+{
+    width: 100px;
+    height: 100px;
+margin-left: 5px;
+}
+
+.text_port
+{
+    text-align: right;
+}
+
+
+
+.mouettes
+{
+    display: block;
+    width: 320px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15% 15% 15% 15%;
+    text-align:left;
+}
+
+.mouettes_button img
+{
+    width: 300px;
+    height: 150px;
+margin-top: 8px;
+border-radius: 10% 10% 0% 0%;
+}
+
+.etoile_button2 img
+{
+    width: 100px;
+    height: 100px;
+margin-left: 5px;
+}
+
+.text_mouettes
+{
+    text-align: right;
+}
+
+
+.mer
+{
+    display: block;
+    width: 320px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15% 15% 15% 15%;
+    text-align:left;
+}
+
+.mer_button img
+{
+    width: 300px;
+    height: 150px;
+margin-top: 8px;
+border-radius: 10% 10% 0% 0%;
+}
+
+.etoile_button2 img
+{
+    width: 100px;
+    height: 100px;
+margin-left: 5px;
+}
+
+.text_mer
+{
+    text-align: right;
+}
+
+.panier
+{
+    display: block;
+    width: 320px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15% 15% 15% 15%;
+    text-align:left;
+}
+
+.panier_button img
+{
+    width: 300px;
+    height: 150px;
+margin-top: 8px;
+border-radius: 10% 10% 0% 0%;
+}
+
+.etoile_button2 img
+{
+    width: 100px;
+    height: 100px;
+margin-left: 5px;
+}
+
+.text_panier
+{
+    text-align: right;
+}
+
+.amina
+{
+    display: block;
+    width: 320px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15% 15% 15% 15%;
+    text-align:left;
+}
+
+.amina_button img
+{
+    width: 300px;
+    height: 150px;
+margin-top: 8px;
+border-radius: 10% 10% 0% 0%;
+}
+
+.etoile_button2 img
+{
+    width: 100px;
+    height: 100px;
+margin-left: 5px;
+}
+
+.text_amina
+{
+    text-align: right;
+}
+
+
+
+
+
+.activites
+{
+    display: block;
+    width: 320px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15% 15% 15% 15%;
+    text-align:left;
+}
+
+.activites_button img
+{
+    width: 300px;
+    height: 150px;
+margin-top: 8px;
+border-radius: 10% 10% 0% 0%;
+}
+
+.text_activites
+{
+    text-align: right;
+}
+
+
+.footer
+{
+    display: inline;
+}
