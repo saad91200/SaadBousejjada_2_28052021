@@ -17,8 +17,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
 
 
-    <header>
-        <img src="Reservia.png" />
+    <header class="header">
+        <img class="header_logo" src="Reservia.png" />
         <h4>S'inscrire</h4>
     </header>
 
@@ -58,43 +58,43 @@
                     <img src="icone/icone_économie.svg" />
                 </div>
                 <span class="filtre">Économique</span>
-            </div>
-
-
-            <div class="familial">
-                <div class="familial_button">
-                    <img src="icone/icone_familial.svg" />
-                </div>
-                <span class="filtre">Familial</span>
-            </div>
-
-
-            <div class="romantique">
-                <div class="romantique_button">
-                    <img src="icone/icone_romantique.svg" />
-                </div>
-                <span class="filtre">Romantique</span>
-            </div>
-
-
-            <div class="animaux">
-                <div class="animaux_button">
-                    <img src="icone/icone_chien.svg" />
-                </div>
-                <span>Animaux autorisés </span>
-            </div>
         </div>
 
 
-        <div class="info">
-            <div class="info_button">
-                <img src="icone/icone_info.png">
+        <div class="familial">
+            <div class="familial_button">
+                <img src="icone/icone_familial.svg" />
             </div>
-            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            <span class="filtre">Familial</span>
+        </div>
+
+
+        <div class="romantique">
+            <div class="romantique_button">
+                <img src="icone/icone_romantique.svg" />
+            </div>
+            <span class="filtre">Romantique</span>
+        </div>
+
+
+        <div class="animaux">
+            <div class="animaux_button">
+                <img src="icone/icone_chien.svg" />
+            </div>
+            <span>Animaux autorisés </span>
         </div>
     </div>
 
 
+    <div class="info">
+        <div class="info_button">
+            <img src="icone/icone_info.png">
+        </div>
+        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+    </div>
+    </div>
+
+    
     <section class="populaires">
         <div class="populaires_titre">
             <h2>Les plus populaires</h2>
@@ -102,8 +102,8 @@
         </div>
 
         <div class="populaires_articles">
-            <a href="#">
-                <figure class="soleil">
+            <a class="populaire_article" href="#">
+                <figure class="populaire_article_conteneur">
                     <img src="image/Hotel_le_soleil_du_matin.jpg">
                     <figcaption class="text_soleil">
                         <span>Hôtel Le soleil du matin</span>
@@ -115,137 +115,125 @@
                 </figure>
             </a>
 
-            <a href="#">
-                <figure class="soleil">
-                    <img src="image/Hotel_le_soleil_du_matin.jpg">
-                    <figcaption class="text_soleil">
-                        <span>Hôtel Le soleil du matin</span>
-                        <p>Nuit à partir de 128€</p>
-                        <div class="etoile_button">
-                            <img src="icone/icone_5étoiles.png">
-                        </div>
-                    </figcaption>
-                </figure>
-            </a>
         </div>
     </section>
 
 
-
+<!--
     <section class="hebergement"">
         <h1>Hébergements à Marseille</h1>
 
-        <section class="cannebiere">
-            <div class="cannebiere_button">
-                <img src="image/Auberge_la_cannebiàre.jpg">
+        <section class=" cannebiere">
+        <div class="cannebiere_button">
+            <img src="image/Auberge_la_cannebiàre.jpg">
+        </div>
+
+        <section class="texte_cannebiere">
+            <span>Auberge la Cannebière</span>
+            <p>Nuit à partir de 25€</p>
+            <div class="etoile_button2">
+                <img src="icone/icone_4étoiles.png">
             </div>
-
-            <section class="texte_cannebiere">
-                <span>Auberge la Cannebière</span>
-                <p>Nuit à partir de 25€</p>
-                <div class="etoile_button2">
-                    <img src="icone/icone_4étoiles.png">
-                </div>
-
-            </section>
 
         </section>
 
+    </section>
 
 
 
-        <section class="port">
-            <div class="port_button">
-                <img src="image/Hotel_du_port.jpg">
+
+    <section class="port">
+        <div class="port_button">
+            <img src="image/Hotel_du_port.jpg">
+        </div>
+
+        <section class="texte_port">
+            <h3>Hôtel du port</h3>
+            <p>Nuit à partir de 52€</p>
+            <div class="etoile_button2">
+                <img src="icone/icone_5étoiles.png">
             </div>
-
-            <section class="texte_port">
-                <h3>Hôtel du port</h3>
-                <p>Nuit à partir de 52€</p>
-                <div class="etoile_button2">
-                    <img src="icone/icone_5étoiles.png">
-                </div>
-
-            </section>
 
         </section>
 
+    </section>
 
 
-        <section class="mouettes">
-            <div class="mouettes_button">
-                <img src="image/Hotel_les_mouettes.jpg">
+
+    <section class="mouettes">
+        <div class="mouettes_button">
+            <img src="image/Hotel_les_mouettes.jpg">
+        </div>
+
+        <section class="texte_mouettes">
+            <h3>Hôtel les mouettes</h3>
+            <p>Nuit à partir de 76€</p>
+            <div class="etoile_button2">
+                <img src="icone/icone_4étoiles.png">
             </div>
-
-            <section class="texte_mouettes">
-                <h3>Hôtel les mouettes</h3>
-                <p>Nuit à partir de 76€</p>
-                <div class="etoile_button2">
-                    <img src="icone/icone_4étoiles.png">
-                </div>
-
-            </section>
 
         </section>
 
+    </section>
 
 
-        <section class="mer">
-            <div class="mer_button">
-                <img src="image/Hotel_de_la_mer.jpg">
+
+    <section class="mer">
+        <div class="mer_button">
+            <img src="image/Hotel_de_la_mer.jpg">
+        </div>
+
+        <section class="texte_mer">
+            <h3>Hôtel de la mer</h3>
+            <p>Nuit à partir de 46€</p>
+            <div class="etoile_button2">
+                <img src="icone/icone_3étoiles.png">
             </div>
-
-            <section class="texte_mer">
-                <h3>Hôtel de la mer</h3>
-                <p>Nuit à partir de 46€</p>
-                <div class="etoile_button2">
-                    <img src="icone/icone_3étoiles.png">
-                </div>
-
-            </section>
 
         </section>
 
+    </section>
 
-        <section class="panier">
-            <div class="panier_button">
-                <img src="image/auberge_le_panier.png">
+
+    <section class="panier">
+        <div class="panier_button">
+            <img src="image/auberge_le_panier.png">
+        </div>
+
+        <section class="texte_panier">
+            <h3>Auberge Le Panier</h3>
+            <p>Nuit à partir de 23€</p>
+            <div class="etoile_button2">
+                <img src="icone/icone_4étoiles.png">
             </div>
-
-            <section class="texte_panier">
-                <h3>Auberge Le Panier</h3>
-                <p>Nuit à partir de 23€</p>
-                <div class="etoile_button2">
-                    <img src="icone/icone_4étoiles.png">
-                </div>
-
-            </section>
 
         </section>
 
+    </section>
 
-        <section class="amina">
-            <div class="amina_button">
-                <img src="image/Hotel_chez_amina.jpg">
+
+    <section class="amina">
+        <div class="amina_button">
+            <img src="image/Hotel_chez_amina.jpg">
+        </div>
+
+        <section class="texte_amina">
+            <h3>Hôtel chez Amina</h3>
+            <p>Nuit à partir de 96€</p>
+            <div class="etoile_button2">
+                <img src="icone/icone_5étoiles.png">
             </div>
-
-            <section class="texte_amina">
-                <h3>Hôtel chez Amina</h3>
-                <p>Nuit à partir de 96€</p>
-                <div class="etoile_button2">
-                    <img src="icone/icone_5étoiles.png">
-                </div>
-
-            </section>
 
         </section>
 
-        <a href="#">Afficher plus</a>
+    </section>
+
+    <a href="#">Afficher plus</a>
     </section>
 
 
     <form>
-       
+
         <h2>Activités à Marseille</h2>
 
         <figure class="activites">
@@ -326,7 +314,7 @@
         </section>
 
     </form>
-
+-->
 
     <form>
         <section class="footer">
