@@ -10,7 +10,7 @@
 
 
 
-<Body>
+<body>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -30,14 +30,11 @@
     </nav>
 
     <form class="recherche">
-        <section>
-            <article>
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            </article>
-            <article>
-                <p>En plein centre ville ou en pleine nature</p>
-            </article>
-        </section>
+
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+
+        <p>En plein centre ville ou en pleine nature</p>
+
 
 
         <div class="recherche_location">
@@ -52,19 +49,15 @@
     </form>
 
 
-    <form>
-        <section>
-            <article>
-                <h4>Filtres</h4>
-            </article>
-        </section>
+    <div class="filtre_section">
+        <h4>Filtres</h4>
 
         <div class="filtres">
-            <div class="economique">
+            <a class="economique" href="#">
                 <div class="economique_button">
                     <img src="icone/icone_économie.svg" />
                 </div>
-                <input type="text" placeholder="Économique">
+                <span class="filtre">Économique</span>
             </div>
 
 
@@ -72,7 +65,7 @@
                 <div class="familial_button">
                     <img src="icone/icone_familial.svg" />
                 </div>
-                <input type="text" placeholder="Familial">
+                <span class="filtre">Familial</span>
             </div>
 
 
@@ -80,7 +73,7 @@
                 <div class="romantique_button">
                     <img src="icone/icone_romantique.svg" />
                 </div>
-                <input type="text" placeholder="Romantique">
+                <span class="filtre">Romantique</span>
             </div>
 
 
@@ -88,7 +81,7 @@
                 <div class="animaux_button">
                     <img src="icone/icone_chien.svg" />
                 </div>
-                <input type="text" placeholder="Animaux autorisés">
+                <span>Animaux autorisés </span>
             </div>
         </div>
 
@@ -99,72 +92,47 @@
             </div>
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
-    </form>
+    </div>
 
 
-    <form style="background-color: #F2F2F2;">
-        <section class="stat">
-            <div>
-                <h1>Les plus populaires</h1>
-            </div>
-            <div class="stat_button">
-                <img src="icone/icone_stat.svg">
-            </div>
-        </section>
+    <section class="populaires">
+        <div class="populaires_titre">
+            <h2>Les plus populaires</h2>
+            <img src="icone/icone_stat.svg">
+        </div>
 
+        <div class="populaires_articles">
+            <a href="#">
+                <figure class="soleil">
+                    <img src="image/Hotel_le_soleil_du_matin.jpg">
+                    <figcaption class="text_soleil">
+                        <span>Hôtel Le soleil du matin</span>
+                        <p>Nuit à partir de 128€</p>
+                        <div class="etoile_button">
+                            <img src="icone/icone_5étoiles.png">
+                        </div>
+                    </figcaption>
+                </figure>
+            </a>
 
-        <section class="soleil">
-            <div class="soleil_button">
-                <img src="image/Hotel_le_soleil_du_matin.jpg">
-            </div>
-            <section class="text_soleil">
-                <h3>Hôtel Le soleil du matin</h3>
-                <p>Nuit à partir de 128€</p>
-                <div class="etoile_button">
-                    <img src="icone/icone_5étoiles.png">
-                </div>
-            </section>
-        </section>
-
-
-
-
-
-        <section class="coeur">
-            <div class="coeur_button">
-                <img src="image/Au_coeur_de_l'eau_chambres_d'hotels.jpg">
-            </div>
-            <section class="text_coeur">
-                <h3>Au coeur de l'eau Chambres d'hôtels</h3>
-                <p>Nuit à partir de 128€</p>
-                <div class="etoile_button">
-                    <img src="icone/icone_4étoiles.png">
-                </div>
-            </section>
-        </section>
+            <a href="#">
+                <figure class="soleil">
+                    <img src="image/Hotel_le_soleil_du_matin.jpg">
+                    <figcaption class="text_soleil">
+                        <span>Hôtel Le soleil du matin</span>
+                        <p>Nuit à partir de 128€</p>
+                        <div class="etoile_button">
+                            <img src="icone/icone_5étoiles.png">
+                        </div>
+                    </figcaption>
+                </figure>
+            </a>
+        </div>
+    </section>
 
 
 
-        <section class="bleu">
-            <div class="bleu_button">
-                <img src="image/Hotel_tout_bleu_et_blanc.jpg">
-            </div>
-            <section class="text_bleu">
-                <h3>Hôtel Tout bleu et blanc</h3>
-                <p>Nuit à partir de 128€</p>
-                <div class="etoile_button">
-                    <img src="icone/icone_4étoiles.png">
-                </div>
-            </section>
-        </section>
-
-
-
-    </form>
-
-
-
-    <form style="background-color: #F2F2F2;">
+    <section class="hebergement"">
         <h1>Hébergements à Marseille</h1>
 
         <section class="cannebiere">
@@ -173,7 +141,7 @@
             </div>
 
             <section class="texte_cannebiere">
-                <h3>Auberge la Cannebière</h3>
+                <span>Auberge la Cannebière</span>
                 <p>Nuit à partir de 25€</p>
                 <div class="etoile_button2">
                     <img src="icone/icone_4étoiles.png">
@@ -271,38 +239,40 @@
             </section>
 
         </section>
-    </form>
+
+        <a href="#">Afficher plus</a>
+    </section>
 
 
     <form>
-        <h2>Afficher plus</h2>
-        <h1>Activités à Marseille</h1>
+       
+        <h2>Activités à Marseille</h2>
 
-        <section class="activites">
+        <figure class="activites">
             <div class="activites_button">
                 <img src="image/Vieux_port.jpg">
             </div>
 
-            <section class="texte_activites">
+            <figcaption class="texte_activites">
                 <h3>Vieux Port</h3>
-            </section>
+            </figcaption>
 
 
-        </section>
+        </figure>
 
 
 
-        <section class="activites">
+        <figure class="activites">
             <div class="activites_button">
                 <img src="image/Fort_de_pomègues.jpg">
             </div>
 
-            <section class="texte_activites">
+            <figcaption class="texte_activites">
                 <h3>Fort de Pomègues</h3>
-            </section>
+            </figcaption>
 
 
-        </section>
+        </figure>
 
 
         <section class="activites">
@@ -362,25 +332,25 @@
         <section class="footer">
             <h2>À propos</h2>
             <ul>
-                <a href="....">Fonctionnement du site</a>
-                <a href="...">Conditions générales de vente</a>
-                <a href="..">Données et confidentialité</a>
+                <a href="#">Fonctionnement du site</a>
+                <a href="#">Conditions générales de vente</a>
+                <a href="#">Données et confidentialité</a>
             </ul>
         </section>
 
         <section class="footer">
             <h2>Nos Hébergements</h2>
             <ul>
-                <a href="...">Charte qualité</a>
-                <a href=".">Soumettre votre hôtel</a>
+                <a href="#">Charte qualité</a>
+                <a href="#">Soumettre votre hôtel</a>
             </ul>
         </section>
 
         <section class="footer">
             <h2>Assistance</h2>
             <ul>
-                <a href="........">Centre d'aide</a>
-                <a href="......">Nous contacter</a>
+                <a href="#">Centre d'aide</a>
+                <a href="#">Nous contacter</a>
             </ul>
         </section>
     </form>

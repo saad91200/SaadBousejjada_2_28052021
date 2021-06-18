@@ -3,6 +3,47 @@ body
  font-family: 'Raleway', sans-serif;
 }
 
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.filtre-section
+{
+    display: flex;
+
+flex-direction: row;
+
+}
+
+.filtres
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    flex-wrap: wrap;
+
+}
+.filtre
+{
+    width: auto;
+    border-radius: 50px;
+    border: 1px solid blue;
+    height: 30px;
+
+}
+
+.filtre_icone
+{
+    position: absolute;
+}
+
+.filtre_icone img
+{
+    width: ;
+}
 
 .recherche_location
 {
