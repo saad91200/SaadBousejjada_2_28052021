@@ -211,6 +211,13 @@ margin-top: 5px;
 margin-top: 10px;
 }
 
+
+
+
+
+
+
+
 .populaires
 {
     background-color: #F2F2F2;
@@ -236,324 +243,117 @@ margin-top: 10px;
     height: 140px;
 }
 
-.populaire_article_conteneur img
+.populaire_article_image
 {
 width: 130px;
 height: 130px;
 object-fit: cover;
 border-radius: 20px 0 0 20px;
 }
+.populaire_article_etoile
+{
+    width: 130px;
+}
+
+.populaire_article_contenu
+{
+    padding: 5px;
+}
 
 
-/*
-.soleil
+
+
+
+
+
+.hebergement
+{
+    background-color: #F2F2F2;
+}
+
+.hebergements_articles
+{
+    padding: 1rem;
+}
+.hebergement_article
 {
     display: block;
-    width: 320px;
-    height: 200px;
+    margin: 0 auto 2rem;
+}
+
+.hebergement_article_conteneur
+{
     background-color: white;
-    border-radius: 15% 15% 15% 15%;
-    text-align: left;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    width: 100%;
+    height: 200px;
 }
 
-.soleil_button img
+.hebergement_article_image
 {
-    width: 120px;
-    height: 120px;
-margin-top: 8px;
-border-radius: 20% 0% 0% 20%;
+width: 230px;
+height: 130px;
+object-fit: cover;
+border-radius: 20px 20px 0px 0px;
 }
-
-.etoile_button img
+.hebergement_article_etoile
 {
-    width: 100px;
-    height: 100px;
-margin-top: 8px;
+    width: 130px;
 }
 
-.text_soleil
+.hebergement_article_contenu
 {
-    text-align: right;
+    padding: 5px;
 }
 
 
 
 
-.coeur
+
+.activité
+{
+    background-color: #F2F2F2;
+}
+
+.activités_articles
+{
+    padding: 1rem;
+}
+.activité_article
 {
     display: block;
-    width: 320px;
-    height: 200px;
+    margin: 0 auto 2rem;
+}
+
+.activité_article_conteneur
+{
     background-color: white;
-    border-radius: 15% 15% 15% 15%;
-    text-align:left;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    width: 100%;
+    height: 170px;
 }
 
-.coeur_button img
+.activité_article_image
 {
-    width: 120px;
-    height: 120px;
-margin-top: 8px;
-border-radius: 20% 0% 0% 20%;
+width: 230px;
+height: 120px;
+object-fit: cover;
+border-radius: 20px 20px 0px 0px;
 }
-
-.etoile_button img
+.activité_article_etoile
 {
-    width: 100px;
-    height: 100px;
-margin-left: 5px;
+    width: 130px;
 }
 
-.text_coeur
+.activité_article_contenu
 {
-    text-align: right;
+    padding: 5px;
 }
 
-
-.bleu
-{
-    display: block;
-    width: 320px;
-    height: 200px;
-    background-color: white;
-    border-radius: 15% 15% 15% 15%;
-    text-align:left;
-}
-
-.bleu_button img
-{
-    width: 120px;
-    height: 120px;
-margin-top: 8px;
-border-radius: 20% 0% 0% 20%;
-}
-
-.etoile_button img
-{
-    width: 100px;
-    height: 100px;
-margin-left: 5px;
-}
-
-.text_bleu
-{
-    text-align: right;
-}
-
-
-
-
-
-.cannebiere
-{
-    display: block;
-    width: 320px;
-    height: 200px;
-    background-color: white;
-    border-radius: 15% 15% 15% 15%;
-    text-align:left;
-}
-
-.cannebiere_button img
-{
-    width: 300px;
-    height: 150px;
-margin-top: 8px;
-border-radius: 10% 10% 0% 0%;
-}
-
-.etoile_button2 img
-{
-    width: 100px;
-    height: 100px;
-margin-left: 5px;
-}
-
-.text_cannebiere
-{
-    text-align: right;
-}
-
-
-.port
-{
-    display: block;
-    width: 320px;
-    height: 200px;
-    background-color: white;
-    border-radius: 15% 15% 15% 15%;
-    text-align:left;
-}
-
-.port_button img
-{
-    width: 300px;
-    height: 150px;
-margin-top: 8px;
-border-radius: 10% 10% 0% 0%;
-}
-
-.etoile_button2 img
-{
-    width: 100px;
-    height: 100px;
-margin-left: 5px;
-}
-
-.text_port
-{
-    text-align: right;
-}
-
-
-
-.mouettes
-{
-    display: block;
-    width: 320px;
-    height: 200px;
-    background-color: white;
-    border-radius: 15% 15% 15% 15%;
-    text-align:left;
-}
-
-.mouettes_button img
-{
-    width: 300px;
-    height: 150px;
-margin-top: 8px;
-border-radius: 10% 10% 0% 0%;
-}
-
-.etoile_button2 img
-{
-    width: 100px;
-    height: 100px;
-margin-left: 5px;
-}
-
-.text_mouettes
-{
-    text-align: right;
-}
-
-
-.mer
-{
-    display: block;
-    width: 320px;
-    height: 200px;
-    background-color: white;
-    border-radius: 15% 15% 15% 15%;
-    text-align:left;
-}
-
-.mer_button img
-{
-    width: 300px;
-    height: 150px;
-margin-top: 8px;
-border-radius: 10% 10% 0% 0%;
-}
-
-.etoile_button2 img
-{
-    width: 100px;
-    height: 100px;
-margin-left: 5px;
-}
-
-.text_mer
-{
-    text-align: right;
-}
-
-.panier
-{
-    display: block;
-    width: 320px;
-    height: 200px;
-    background-color: white;
-    border-radius: 15% 15% 15% 15%;
-    text-align:left;
-}
-
-.panier_button img
-{
-    width: 300px;
-    height: 150px;
-margin-top: 8px;
-border-radius: 10% 10% 0% 0%;
-}
-
-.etoile_button2 img
-{
-    width: 100px;
-    height: 100px;
-margin-left: 5px;
-}
-
-.text_panier
-{
-    text-align: right;
-}
-
-.amina
-{
-    display: block;
-    width: 320px;
-    height: 200px;
-    background-color: white;
-    border-radius: 15% 15% 15% 15%;
-    text-align:left;
-}
-
-.amina_button img
-{
-    width: 300px;
-    height: 150px;
-margin-top: 8px;
-border-radius: 10% 10% 0% 0%;
-}
-
-.etoile_button2 img
-{
-    width: 100px;
-    height: 100px;
-margin-left: 5px;
-}
-
-.text_amina
-{
-    text-align: right;
-}
-
-
-
-
-
-.activites
-{
-    display: block;
-    width: 320px;
-    height: 200px;
-    background-color: white;
-    border-radius: 15% 15% 15% 15%;
-    text-align:left;
-}
-
-.activites_button img
-{
-    width: 300px;
-    height: 150px;
-margin-top: 8px;
-border-radius: 10% 10% 0% 0%;
-}
-
-.text_activites
-{
-    text-align: right;
-}
 
 
 .footer
