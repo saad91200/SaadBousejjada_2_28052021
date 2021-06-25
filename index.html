@@ -19,21 +19,21 @@
 
     <header class="header">
         <img class="header_logo" src="Reservia.png" />
-        <h4>S'inscrire</h4>
+        <h5 class="header_texte">S'inscrire</h5>
     </header>
 
 
 
-    <nav>
-        <h4 style="color:#0065FC;">Hébergements</h4>
-        <h4>Activités</h4>
+    <nav class="nav">
+        <p style="color:#0065FC;">Hébergements</p>
+        <p>Activités</p>
     </nav>
 
     <form class="recherche">
 
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
 
-        <p>En plein centre ville ou en pleine nature</p>
+        <p class="recherche_texte">En plein centre ville ou en pleine nature</p>
 
 
 
@@ -50,55 +50,61 @@
 
 
     <div class="filtre_section">
-        <h4>Filtres</h4>
+        <h4 class="texte_filtres">Filtres</h4>
 
         <div class="filtres">
-            <a class="economique" href="#">
-                <div class="economique_button">
+            <a class="filtre" href="#">
+                <div class="filtre_icone">
                     <img src="icone/icone_économie.svg" />
                 </div>
-                <span class="filtre">Économique</span>
+                <span class="filtre_texte">Économique</span>
+            </a>
+
+
+            <a class="filtre" href="#">
+                <div class="filtre_icone">
+                    <img src="icone/icone_familial.svg" />
+                </div>
+                <span class="filtre_texte">Familial</span>
+            </a>
+
+
+            <a class="filtre" href="#">
+                <div class="filtre_icone">
+                    <img src="icone/icone_romantique.svg" />
+                </div>
+                <span class="filtre_texte">Romantique</span>
+            </a>
+
+
+            <a class="filtre" href="#">
+                <div class="filtre_icone">
+                    <img src="icone/icone_chien.svg" />
+                </div>
+                <span class="filtre_texte">Animeaux autorisés</span>
+            </a>
+
         </div>
 
 
-        <div class="familial">
-            <div class="familial_button">
-                <img src="icone/icone_familial.svg" />
+
+
+
+
+
+        <div class="info">
+            <div class="info_button">
+                <img src="icone/icone_info.png">
             </div>
-            <span class="filtre">Familial</span>
-        </div>
-
-
-        <div class="romantique">
-            <div class="romantique_button">
-                <img src="icone/icone_romantique.svg" />
-            </div>
-            <span class="filtre">Romantique</span>
-        </div>
-
-
-        <div class="animaux">
-            <div class="animaux_button">
-                <img src="icone/icone_chien.svg" />
-            </div>
-            <span>Animaux autorisés </span>
+            <p class="info_texte">Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
     </div>
 
 
-    <div class="info">
-        <div class="info_button">
-            <img src="icone/icone_info.png">
-        </div>
-        <p>Plus de 500 logements sont disponibles dans cette ville</p>
-    </div>
-    </div>
-
-    
     <section class="populaires">
         <div class="populaires_titre">
             <h2>Les plus populaires</h2>
-            <img src="icone/icone_stat.svg">
+            <img class="populaires_titre_icone" src="icone/icone_stat.svg">
         </div>
 
         <div class="populaires_articles">
@@ -109,7 +115,7 @@
                         <span>Hôtel Le soleil du matin</span>
                         <p>Nuit à partir de 128€</p>
                         <div class="etoile_button">
-                            <img class="populaire_article_etoile" src="icone/icone_5étoiles.png">
+                            <img class="populaire_article_etoile" src="icone/icone_5etoiles.svg">
                         </div>
                     </figcaption>
                 </figure>
@@ -123,7 +129,7 @@
                         <span>Au coeur de l'eau Chambres d'hôtes</span>
                         <p>Nuit à partir de 71€</p>
                         <div class="etoile_button">
-                            <img class="populaire_article_etoile" src="icone/icone_4étoiles.png">
+                            <img class="populaire_article_etoile" src="icone/icone_4etoiles.svg">
                         </div>
                     </figcaption>
                 </figure>
@@ -137,7 +143,7 @@
                         <span>Hôtel Tout Bleu et Blanc</span>
                         <p>Nuit à partir de 68€</p>
                         <div class="etoile_button">
-                            <img class="populaire_article_etoile" src="icone/icone_4étoiles.png">
+                            <img class="populaire_article_etoile" src="icone/icone_4etoiles.svg">
                         </div>
                     </figcaption>
                 </figure>
@@ -158,10 +164,10 @@
                 <figure class="hebergement_article_conteneur">
                     <img class="hebergement_article_image" src="image/Auberge_la_cannebiàre.jpg">
                     <figcaption class="hebergement_article_contenu">
-                        <span>Auberge la Cannebière</span>
+                        <h4>Auberge la Cannebière</h4>
                         <p>Nuit à partir de 25€</p>
                         <div class="etoile_button">
-                            <img class="hebergement_article_etoile" src="icone/icone_4étoiles.png">
+                            <img class="hebergement_article_etoile" src="icone/icone_4etoiles.svg">
                         </div>
                     </figcaption>
                 </figure>
@@ -171,10 +177,10 @@
                 <figure class="hebergement_article_conteneur">
                     <img class="hebergement_article_image" src="image/Hotel_du_port.jpg">
                     <figcaption class="hebergement_article_contenu">
-                        <span>Hôtel du port</span>
+                        <h4>Hôtel du port</h4>
                         <p>Nuit à partir de 52€</p>
                         <div class="etoile_button">
-                            <img class="hebergement_article_etoile" src="icone/icone_5étoiles.png">
+                            <img class="hebergement_article_etoile" src="icone/icone_5etoiles.svg">
                         </div>
                     </figcaption>
                 </figure>
@@ -184,10 +190,10 @@
                 <figure class="hebergement_article_conteneur">
                     <img class="hebergement_article_image" src="image/Hotel_les_mouettes.jpg">
                     <figcaption class="hebergement_article_contenu">
-                        <span>Hôtel les mouettes</span>
+                        <h4>Hôtel les mouettes</h4>
                         <p>Nuit à partir de 76€</p>
                         <div class="etoile_button">
-                            <img class="hebergement_article_etoile" src="icone/icone_4étoiles.png">
+                            <img class="hebergement_article_etoile" src="icone/icone_4etoiles.svg">
                         </div>
                     </figcaption>
                 </figure>
@@ -197,10 +203,10 @@
                 <figure class="hebergement_article_conteneur">
                     <img class="hebergement_article_image" src="image/Hotel_de_la_mer.jpg">
                     <figcaption class="hebergement_article_contenu">
-                        <span>Hôtel de la mer</span>
+                        <h4>Hôtel de la mer</h4>
                         <p>Nuit à partir de 46€</p>
                         <div class="etoile_button">
-                            <img class="hebergement_article_etoile" src="icone/icone_3étoiles.png">
+                            <img class="hebergement_article_etoile" src="icone/icone_3etoiles.svg">
                         </div>
                     </figcaption>
                 </figure>
@@ -210,10 +216,10 @@
                 <figure class="hebergement_article_conteneur">
                     <img class="hebergement_article_image" src="image/auberge_le_panier.png">
                     <figcaption class="hebergement_article_contenu">
-                        <span>Auberge le Panier</span>
+                        <h4>Auberge le Panier</h4>
                         <p>Nuit à partir de 23€</p>
                         <div class="etoile_button">
-                            <img class="hebergement_article_etoile" src="icone/icone_4étoiles.png">
+                            <img class="hebergement_article_etoile" src="icone/icone_4etoiles.svg">
                         </div>
                     </figcaption>
                 </figure>
@@ -223,18 +229,20 @@
                 <figure class="hebergement_article_conteneur">
                     <img class="hebergement_article_image" src="image/Hotel_chez_amina.jpg">
                     <figcaption class="hebergement_article_contenu">
-                        <span>Hôtel chez Amina</span>
+                        <h4>Hôtel chez Amina</h4>
                         <p>Nuit à partir de 96€</p>
                         <div class="etoile_button">
-                            <img class="hebergement_article_etoile" src="icone/icone_5étoiles.png">
+                            <img class="hebergement_article_etoile" src="icone/icone_5etoiles.svg">
                         </div>
                     </figcaption>
                 </figure>
             </a>
-        
+
 
         </div>
-        <a href="#">Afficher plus</a>
+        <a href="#">
+            <h4 class="afficher_plus">Afficher plus</h4>
+        </a>
     </section>
 
 
@@ -257,7 +265,7 @@
                 <figure class="activité_article_conteneur">
                     <img class="activité_article_image" src="image/Vieux_port.jpg">
                     <figcaption class="activité_article_contenu">
-                        <span>Vieux Port</span>
+                        <h4>Vieux Port</h4>
                     </figcaption>
                 </figure>
             </a>
@@ -266,7 +274,7 @@
                 <figure class="activité_article_conteneur">
                     <img class="activité_article_image" src="image/Fort_de_pomègues.jpg">
                     <figcaption class="activité_article_contenu">
-                        <span>Fort de Pomègues</span>
+                        <h4>Fort de Pomègues</h4>
                     </figcaption>
                 </figure>
             </a>
@@ -275,7 +283,7 @@
                 <figure class="activité_article_conteneur">
                     <img class="activité_article_image" src="image/Iles_du_frioul.jpg">
                     <figcaption class="activité_article_contenu">
-                        <span>Îles du Frioul</span>
+                        <h4>Îles du Frioul</h4>
                     </figcaption>
                 </figure>
             </a>
@@ -284,7 +292,7 @@
                 <figure class="activité_article_conteneur">
                     <img class="activité_article_image" src="image/Parc_national.jpg">
                     <figcaption class="activité_article_contenu">
-                        <span>Parc National des Calanques</span>
+                        <h4>Parc National des Calanques</h4>
                     </figcaption>
                 </figure>
             </a>
@@ -293,7 +301,7 @@
                 <figure class="activité_article_conteneur">
                     <img class="activité_article_image" src="image/Notre_dame.jpg">
                     <figcaption class="activité_article_contenu">
-                        <span>Notre-Dame-de-la-Garde</span>
+                        <h4>Notre-Dame-de-la-Garde</h4>
                     </figcaption>
                 </figure>
             </a>
@@ -302,11 +310,11 @@
                 <figure class="activité_article_conteneur">
                     <img class="activité_article_image" src="image/Parc_longchamp.jpg">
                     <figcaption class="activité_article_contenu">
-                        <span>Parc Longchamp</span>
+                        <h4>Parc Longchamp</h4>
                     </figcaption>
                 </figure>
             </a>
-        
+
         </div>
     </section>
 
@@ -314,7 +322,7 @@
 
 
 
-    
+
 
     <form>
         <section class="footer">
