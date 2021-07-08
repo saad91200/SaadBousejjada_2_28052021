@@ -369,3 +369,57 @@ border-radius: 20px 20px 0px 0px;
 {
 
 }
+
+@media (min-width: 1280px) {
+    body {
+        display: grid;
+        grid-template-areas: "header header"
+                             "recherche recherche"
+                             "filtres filtres"
+                             "hebergement populaires"
+                             "activites activites"
+                             "footer footer";
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    .header {
+        grid-area: header;
+    }
+    .nav {
+        
+    }
+    .filtre_section {
+        grid-area: filtres;
+    }
+    .recherche {
+        grid-area: recherche;
+    }
+    .populaires {
+        grid-area: populaires;
+        border-radius: 20px;
+    }
+    .hebergement {
+        grid-area: hebergement;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+    }
+    .acivité {
+        grid-area: activites;
+    }
+    footer {
+        grid-area: footer;
+    } 
+
+    .hebergements_articles
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    
+    
+
+}
+
+
+}
