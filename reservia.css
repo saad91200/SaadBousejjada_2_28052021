@@ -535,12 +535,14 @@ border-bottom: none;
 .activité {
     grid-area: activites;
     
+    
 }
 
 .activités_articles
 {
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 195px 45px 45px 165px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
 }
 
 footer
